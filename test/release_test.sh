@@ -11,8 +11,8 @@ testRelease()
 config_vars:
   ANT_HOME: $ANT_HOME
   PATH: /usr/local/bin:/usr/bin:/bin
-  JAVA_OPTS: -Xmx384m -Xss512k -XX:+UseCompressedOops
-  ANT_OPTS: -Xmx384m -Xss512k -XX:+UseCompressedOops 
+  JAVA_OPTS: -Xmx686m -Xss512k -XX:+UseCompressedOops
+  ANT_OPTS: -Xmx686m -Xss512k -XX:+UseCompressedOops 
 addons:
   shared-database:5mb
 default_process_types:
